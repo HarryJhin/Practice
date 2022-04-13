@@ -42,8 +42,6 @@ public class SetTest {
         교집합.retainAll(y);
         System.out.println(교집합);
 
-
-
     }
 
 }
