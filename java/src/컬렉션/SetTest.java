@@ -3,7 +3,8 @@ package 컬렉션;
 import java.util.HashSet;
 
 /**
- * 집합(Set) 자료 구조를 테스트하는 클래스. 집합은 중복된 요소(element)를 허용하지 않음.
+ * 집합(Set) 자료 구조를 테스트하는 클래스.
+ * 집합은 중복된 요소(element)를 허용하지 않음.
  */
 public class SetTest {
     
