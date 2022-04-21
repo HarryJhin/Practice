@@ -10,8 +10,14 @@
 2. 다음 명령어를 입력
 
     ```shell
-    dotnet new --project 프로젝트이름
+    dotnet new console --output 프로젝트이름
     ```
+
+또 다른 방법으로 디렉토리를 프로젝트로 만드는 방법입니다.
+
+```shell
+dotnet new console --framework net6.0
+```
 
 #### 프로젝트 실행 방법
 
@@ -21,3 +27,8 @@
     ```shell
     dotnet run
     ```
+
+    또는
+
+    ```shell
+    dotnet run --project 프로젝트이름
